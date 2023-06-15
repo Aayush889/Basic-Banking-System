@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .navbar-logo {
+        display:flexbox;
+        width: 50px; 
+        height: 50px;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .welcome-statement {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="logo.png" alt="Logo" class="navbar-logo"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="view_customers.php">View Customers</a></li>
+            <li><a href="transfer_history.php">Transfer History</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="bank2.jpg" alt="bank" style="width:100%;min-height:350px;max-height:500px;padding: 0px;">
+        <div class="welcome-statement">
+            <h1>Welcome to Sparks foundation Bank</h1>
+            <p>Manage your finances with ease.</p>
+        </div>
+    </div>
+    
+<div class="w3-container w3-padding-64 w3-center" id="team">
+    <div class="w3-row" style="display: flexbox;"><br>
+        <div class="w3-quarer" style="border-width: 10px;">
+            <h2>Our Customers</h2>
+        <img src="Customers.jpg" alt="people" height="300px" style="width:30%" class="w3-circle w3-hover-opacity">
+        </div>
+        <div class="w3-quarer" style="border-width: 10px;">
+            <h3>transaction</h3>
+        <img src="transaction.jpg" alt="transaction" height="350px" style="width:30%"  class="w3-circle w3-hover-opacity">   
+        </div>
+    </div>
+</div>
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center" style="margin: 0px;">
+    <h4>Follow Us</h4>
+    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+    <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+</footer>
+      
+</body>
+</html>
